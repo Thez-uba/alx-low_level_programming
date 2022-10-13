@@ -1,5 +1,9 @@
-iclude < stdio.h >
+#include <stdio.h>
 
+/**
+* main - prints Programming is like building a multilingual puzzle
+* Return: void
+*/
 int main(void)
 {
 	puts("Programming is like building a multilingual puzzle\n");
