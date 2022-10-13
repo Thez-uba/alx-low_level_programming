@@ -8,6 +8,6 @@ int main(void)
 {
 	int a;
 
-	prinf("size of an int: %d bytes", sizeof(a));
+	printf("size of an int: %d bytes", sizeof(a));
 	return (0);
 }
