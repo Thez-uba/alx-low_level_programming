@@ -14,10 +14,10 @@ char *leet(char *s)
 	char s2[] = "43071";
 
 	for (i = 0; s[i] != '\0'; i++)
-	{
+ 	{
 		for (k = 0; k < 5; k++)
 		{
-			if ([i] == s1[k] || s[i] == S1[k])
+			if (s[i] == s1[k] || s[i] == S1[k])
 			{
 				s[i] = s2[k];
 				break;
