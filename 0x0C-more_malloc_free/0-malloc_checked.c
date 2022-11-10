@@ -7,7 +7,7 @@
  * Return: A poointer to the allocated memory
  */
 
-void *malloc_checked(unsignd int b)
+void *malloc_checked(unsigned int b)
 {
 	void *mem = malloc(b);
 
